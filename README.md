@@ -179,8 +179,8 @@ Example:
 ```bash
 $ lpq
 Rank    Owner   Job     File(s)                         Total Size
-active  adnanad 59      demo                            399360 bytes
-1st     adnanad 60      (stdin)                         0 bytes
+active  biswajeet 59      demo                            399360 bytes
+1st     biswajeet 60      (stdin)                         0 bytes
 ```
 
 ### m. `lpr`
