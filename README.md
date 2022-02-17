@@ -14,13 +14,13 @@ export
 Example:
 ```bash
 $ export
-AWS_HOME=/Users/adnanadnan/.aws
+AWS_HOME=/Users/biswajeet/.aws
 LANG=en_US.UTF-8
 LC_CTYPE=en_US.UTF-8
 LESS=-R
 
 $ echo $AWS_HOME
-/Users/adnanadnan/.aws
+/Users/biswajeet/.aws
 ```
 
 ### b. `whatis`
@@ -203,14 +203,14 @@ ls option
 Example:
 <pre>
 $ ls -la
-rwxr-xr-x   33 adnan  staff    1122 Mar 27 18:44 .
-drwxrwxrwx  60 adnan  staff    2040 Mar 21 15:06 ..
--rw-r--r--@  1 adnan  staff   14340 Mar 23 15:05 .DS_Store
--rw-r--r--   1 adnan  staff     157 Mar 25 18:08 .bumpversion.cfg
--rw-r--r--   1 adnan  staff    6515 Mar 25 18:08 .config.ini
--rw-r--r--   1 adnan  staff    5805 Mar 27 18:44 .config.override.ini
-drwxr-xr-x  17 adnan  staff     578 Mar 27 23:36 .git
--rwxr-xr-x   1 adnan  staff    2702 Mar 25 18:08 .gitignore
+rwxr-xr-x   33 biswajeet  staff    1122 Mar 27 18:44 .
+drwxrwxrwx  60 biswajeet  staff    2040 Mar 21 15:06 ..
+-rw-r--r--@  1 biswajeet  staff   14340 Mar 23 15:05 .DS_Store
+-rw-r--r--   1 biswajeet  staff     157 Mar 25 18:08 .bumpversion.cfg
+-rw-r--r--   1 biswajeet  staff    6515 Mar 25 18:08 .config.ini
+-rw-r--r--   1 biswajeet  staff    5805 Mar 27 18:44 .config.override.ini
+drwxr-xr-x  17 biswajeet  staff     578 Mar 27 23:36 .git
+-rwxr-xr-x   1 biswajeet  staff    2702 Mar 25 18:08 .gitignore
 </pre>
 
 ### p. `more`
@@ -1119,7 +1119,7 @@ done
 Run `nano ~/.bash_profile` and add the following line:
 
 ```bash
-alias dockerlogin='ssh www-data@adnan.local -p2222'  # add your alias in .bash_profile
+alias dockerlogin='ssh www-data@biswajeet.local -p2222'  # add your alias in .bash_profile
 ```
 
 ## To quickly go to a specific directory
